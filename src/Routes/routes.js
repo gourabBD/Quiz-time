@@ -21,7 +21,7 @@ import Topics from "../components/Topics/Topics";
             {
                 path:'blog',
                 
-                element:<div>  <Header></Header> <Blog></Blog></div>
+                element:<div>  <Blog></Blog></div>
             },
             {
                 path:'stat',
