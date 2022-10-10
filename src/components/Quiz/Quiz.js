@@ -1,16 +1,21 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+  import { faEye } from '@fortawesome/free-solid-svg-icons'
 
 import { ToastContainer, toast } from 'react-toastify';
 
 const Quiz = ({question}) => {
+    const {options,correctAnswer}=question
     const correct = () => toast("Correct Answer!");
     const falsy = () => toast("Wrong Answer!");
-    const {options}=question
+    const correctAnswerEye=()=>toast(`${correctAnswer}`);
+
+   
     return (
-        <div className='card m-2 '>
+        <div className='card m-5 p-3'>
         
-            <h3>Q: {question.question}</h3>
+            <h3>Q: {question.question}  <FontAwesomeIcon className='btn m-2' onClick={correctAnswerEye} icon={faEye} ></FontAwesomeIcon></h3>
             <div >
             <div >
             {
