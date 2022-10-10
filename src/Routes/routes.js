@@ -5,6 +5,7 @@ import {
 import Blog from "../components/Blog/Blog";
 import Header from "../components/Header/Header";
 import Main from "../components/Main/Main";
+import Quizes from "../components/Quizes/Quizes";
 import Statistics from "../components/Statistics/Statistics";
 import Topics from "../components/Topics/Topics";
 
@@ -27,6 +28,12 @@ import Topics from "../components/Topics/Topics";
                 path:'stat',
                 loader:async()=>fetch('https://openapi.programming-hero.com/api/quiz'),
                 element:<Statistics></Statistics>
+            },
+          
+            {
+                path:'quiz/:quizId',
+                loader:async({params})=>fetch(`https://openapi.programming-hero.com/api/quiz/${params.quizId}`),
+                element:<Quizes></Quizes>
             },
           
         ],

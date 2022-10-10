@@ -9,6 +9,8 @@ import {
 } from "react-router-dom";
 import { route, router } from './Routes/routes';
 
+import 'react-toastify/dist/ReactToastify.css';
+
 function App() {
   return (
     <div className="App ">
