@@ -1,7 +1,6 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 
-import Options from '../Options/Options';
 import { ToastContainer, toast } from 'react-toastify';
 
 const Quiz = ({question}) => {
