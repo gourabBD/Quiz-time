@@ -11,10 +11,10 @@ import {
 
 const NavBars = () => {
     return (
-        <div className='w-100 d-grid'>
+        <div className=' d-block w-auto'>
         
              <Navbar  bg="warning" variant="dark">
-        <Container className='justify-content-space-between'>
+        <Container className='justify-content-space-between p-4'>
         <div> <Navbar.Brand className='text-dark'>Quiz <span className='text-primary'>Time</span></Navbar.Brand>
         </div>
         <div>

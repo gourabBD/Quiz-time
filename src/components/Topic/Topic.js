@@ -6,7 +6,7 @@ const Topic = ({topic}) => {
     const {id}=topic;
 
     return (
-        <div className='m-2 '>
+        <div className='m-1 d-grid'>
            <Card className='bg-warning p-2 ' style={{ width: '18rem' }}>
       <Card.Img variant="top" src={topic.logo} />
       <Card.Body className='bg-secondary'>

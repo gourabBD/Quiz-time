@@ -9,7 +9,7 @@ const Quiz = ({question}) => {
     const {options,correctAnswer}=question
     const correct = () => toast("Correct Answer!");
     const falsy = () => toast("Wrong Answer!");
-    const correctAnswerEye=()=>toast(`${correctAnswer}`);
+    const correctAnswerEye=()=>toast(`Correct Answer: ${correctAnswer}`);
 
    
     return (
@@ -26,7 +26,7 @@ const Quiz = ({question}) => {
         margin:'10px' }}>{opt}</Button>
         <ToastContainer 
     position="top-center"
-    autoClose={2000}
+    autoClose={4000}
     hideProgressBar={false}
     newestOnTop={false}
     closeOnClick

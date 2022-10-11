@@ -12,7 +12,8 @@ const Topics = () => {
     const AllTopics=useLoaderData();
     const {data}=AllTopics
     return (
-        <div className='m-5 d-lg-flex d-grid justify-content-center'>
+      
+        <div className='card-group  d-lg-flex  d-md-grid  d-sm-grid justify-content-sm-center justify-content-md-center  d-grid '>
             
             {
               data.map(topic=><Topic key={topic.id}  topic={topic}></Topic>)  
