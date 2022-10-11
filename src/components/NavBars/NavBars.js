@@ -11,7 +11,7 @@ import {
 
 const NavBars = () => {
     return (
-        <div className=' d-block w-auto'>
+        <div className=' d-grid w-auto'>
         
              <Navbar  bg="warning" variant="dark">
         <Container className='justify-content-space-between p-4'>

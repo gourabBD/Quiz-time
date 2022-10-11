@@ -12,7 +12,6 @@ const Topics = () => {
     const AllTopics=useLoaderData();
     const {data}=AllTopics
     return (
-      
         <div className='card-group  d-lg-flex  d-md-grid  d-sm-grid justify-content-sm-center justify-content-md-center  d-grid '>
             
             {
