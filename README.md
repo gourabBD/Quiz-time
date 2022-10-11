@@ -9,6 +9,6 @@ Features  of the project:
 
 Things are used in this project:
 1.Use react router.
-2.Use Bottstrap for styling
-3.Used turnary operators
+2.Use Bootstrap for styling.
+3.Used ternary operators
 4.Used toast in this project
