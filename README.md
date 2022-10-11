@@ -8,7 +8,7 @@ Features  of the project:
 4.Selected answers are correct answers or wrong answers are notified immediately after clicking on the answer.
 
 Things are used in this project:
-1.Use react router.
-2.Use Bootstrap for styling.
+1.Used react router.
+2.Used Bootstrap for styling.
 3.Used ternary operators
 4.Used toast in this project
